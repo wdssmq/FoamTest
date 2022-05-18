@@ -16,12 +16,12 @@
     - jekyll 本身就挺麻烦的，不是很想研究；[^jekyll][[README#其他参考]]
 - 同理`attachments`和`assets`应该也可以**删**掉；
 - 自带的文档文件都移入了`docs`文件夹内，新建`docs-zh`，实际自己创建的笔记项目中可以**删**掉或清空；
-- markdown-all-in-one 插件好像不支持脚注；
+- markdown-all-in-one 插件好像不支持脚注；[[markdown-syntax#脚注]]
 - 快捷键之类的；
 - 初始配置项需要根据需要修改；[[settings]]
     - 比如 git 提交时会自动推送，个人不是很需要；
 
-jekyll: Github Pages + jekyll 全面介绍极简搭建个人网站和博客 - https://zhuanlan.zhihu.com/p/51240503
+[^jekyll]: Github Pages + jekyll 全面介绍极简搭建个人网站和博客 - https://zhuanlan.zhihu.com/p/51240503
 
 ## 其他参考
 
