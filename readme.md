@@ -4,6 +4,8 @@
 
 项目地址: https://github.com/wdssmq/FoamTest
 
+发布查看: https://wdssmq.github.io/FoamTest/
+
 ## 说明
 
 本仓库使用官方模板创建：
