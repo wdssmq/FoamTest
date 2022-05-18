@@ -20,7 +20,7 @@ jobs:
             cp readme.md docs/index.md
           fi
           if [ -d "docs-zh" ]; then
-            cp docs-zh docs/zh-cn
+            cp -r docs-zh docs/zh-cn
           fi
       - run: pip install mkdocs-material==5.5.12
       - run: pip install mkdocs-exclude
