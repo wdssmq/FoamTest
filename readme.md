@@ -39,3 +39,7 @@ Foam-vscode 笔记入门/教程 - 知乎：
 VS Code 中的双链笔记：Foam 使用体验分享 - 少数派：
 
 [https://sspai.com/post/70956](https://sspai.com/post/70956 "VS Code 中的双链笔记：Foam 使用体验分享 - 少数派")
+
+Jackiexiao/foam-mkdocs-template: 发布 Foam 笔记到 GitHub Page：
+
+[https://github.com/jackiexiao/foam-mkdocs-template](https://github.com/jackiexiao/foam-mkdocs-template "Jackiexiao/foam-mkdocs-template: 发布 Foam 笔记到 GitHub Page")
