@@ -13,12 +13,12 @@ jobs:
         with:
           python-version: 3.x
       - run: |
-        if [ -f "README.md" ]; then
-          cp README.md docs/index.md
-        fi
-        if [ -f "readme.md" ]; then
-          cp readme.md docs/index.md
-        fi
+          if [ -f "README.md" ]; then
+            cp README.md docs/index.md
+          fi
+          if [ -f "readme.md" ]; then
+            cp readme.md docs/index.md
+          fi
       - run: pip install mkdocs-material==5.5.12
       - run: pip install mkdocs-exclude
       - run: pip install mkdocs-roamlinks-plugin
