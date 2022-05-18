@@ -1,22 +1,23 @@
-# official tutorial 
+# official tutorial
 # mkdocs-material: https://squidfunk.github.io/mkdocs-material/
 # mkdocs: https://www.mkdocs.org/user-guide/configuration/
 
-site_name: Foam-mkdocs-template
+site_name: Foam-Test-Template
 theme:
   name: material
   #  favicon: attachment/portrait.png
   language: zh # 中文，解决中文搜索问题
   features:
-    - navigation.expand 
-    - tabs 
-markdown_extensions: 
+    - navigation.expand
+    - tabs
+markdown_extensions:
   - attr_list # https://squidfunk.github.io/mkdocs-material/reference/images/
-  - pymdownx.tabbed  # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
-  - nl2br # newline-to-break 
+  - pymdownx.tabbed # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
+  - nl2br # newline-to-break
   - toc:
-      permalink: '#' # heading anchor 
+      permalink: "#" # heading anchor
       slugify: !!python/name:pymdownx.slugs.uslugify # 解决中文标题解析问题
+
   - admonition
   - codehilite:
       guess_lang: false
@@ -31,7 +32,7 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   # - pymdownx.emoji:
-      # emoji_generator: !!python/name:pymdownx.emoji.to_png
+  # emoji_generator: !!python/name:pymdownx.emoji.to_png
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark
@@ -41,8 +42,8 @@ markdown_extensions:
   - pymdownx.tilde
 plugins:
   - search
-  - roamlinks 
-    #- autolinks 
+  - roamlinks
+    #- autolinks
   - exclude:
       glob:
         - "*.tmp"
