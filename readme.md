@@ -4,7 +4,7 @@
 
 项目地址: https://github.com/wdssmq/FoamTest
 
-发布查看: https://wdssmq.github.io/FoamTest/
+在线查看: https://wdssmq.github.io/FoamTest/
 
 ## 说明
 
@@ -17,7 +17,7 @@
 ## 探究记录
 
 - `_layouts`文件夹好像是给 Github Pages + jekyll 用的，应该是可以**删**的吧；
-    - jekyll 本身就挺麻烦的，不是很想研究；[^jekyll][[README#其他参考]]
+    - jekyll 本身就挺麻烦的，不是很想研究；[^jekyll][[#其他参考]]
 - 同理`attachments`和`assets`应该也可以**删**掉；
 - 自带的文档文件都移入了`docs`文件夹内，新建`docs-zh`，实际自己创建的笔记项目中可以**删**掉或清空；
 - markdown-all-in-one 插件好像不支持脚注；[[markdown-syntax#脚注]]
@@ -26,9 +26,10 @@
     - 比如 git 提交时会自动推送，个人不是很需要；
 - 根据[#外部参考]预置了代码片段；[[code-snippets]]
     - 代码片段内预置了一个`/blockmeta`用于在一些地方设置 #tag，这并不是 Foam 内置语法，也暂时不知道有什么用；
-- #tag 和 脚注感觉可以以某种形式相结合？[[markdown-syntax#脚注]]
+- [#tag]和[#脚注]感觉可以以某种形式相结合？[[markdown-syntax#脚注]]
+- 姑且搞定了发布功能；[[publis-github-page]]
 
-[^jekyll]: Github Pages + jekyll 全面介绍极简搭建个人网站和博客 - https://zhuanlan.zhihu.com/p/51240503
+[^jekyll]: Github Pages + jekyll 全面介绍极简搭建个人网站和博客: https://zhuanlan.zhihu.com/p/51240503
 
 ## 其他参考
 
