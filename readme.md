@@ -1,6 +1,8 @@
 # FoamTest
 
-被动发现了 Foam 这个基于 VSCode 的笔记工具，虽然不确定是否好用；
+被动发现了 Foam 这个基于 VSCode 的笔记工具，虽然不确定是否好用；[#FoamTest]
+
+项目地址: https://github.com/wdssmq/FoamTest
 
 ## 说明
 
@@ -21,7 +23,8 @@
 - 初始配置项需要根据需要修改；[[settings]]
     - 比如 git 提交时会自动推送，个人不是很需要；
 - 根据[#外部参考]预置了代码片段；[[code-snippets]]
-    - 代码片段内预置了一个`/blockmeta`用于在一些地方设置 tag，这并不是 Foam 内置语法，也暂时不知道有什么用；
+    - 代码片段内预置了一个`/blockmeta`用于在一些地方设置 #tag，这并不是 Foam 内置语法，也暂时不知道有什么用；
+- #tag 和 脚注感觉可以以某种形式相结合？[[markdown-syntax#脚注]]
 
 [^jekyll]: Github Pages + jekyll 全面介绍极简搭建个人网站和博客 - https://zhuanlan.zhihu.com/p/51240503
 
