@@ -20,10 +20,14 @@
 - 快捷键之类的；
 - 初始配置项需要根据需要修改；[[settings]]
     - 比如 git 提交时会自动推送，个人不是很需要；
+- 根据[#外部参考]预置了代码片段；[[code-snippets]]
+    - 代码片段内预置了一个`/blockmeta`用于在一些地方设置 tag，这并不是 Foam 内置语法，也暂时不知道有什么用；
 
 [^jekyll]: Github Pages + jekyll 全面介绍极简搭建个人网站和博客 - https://zhuanlan.zhihu.com/p/51240503
 
 ## 其他参考
+
+block-meta: [#外部参考]
 
 Foam-vscode 笔记入门/教程 - 知乎：
 

@@ -12,6 +12,14 @@
             "---"
         ]
     },
+    "Block Meta": {
+        "scope": "markdown",
+        "prefix": "/blockmeta",
+        "description": "为当前区块生成元数据",
+        "body": [
+            "block-meta: [#$1]"
+        ]
+    },
     "Time Stamp": {
         "scope": "markdown",
         "prefix": [
