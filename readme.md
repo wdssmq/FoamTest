@@ -4,7 +4,9 @@
 
 项目地址: https://github.com/wdssmq/FoamTest
 
-在线查看: https://wdssmq.github.io/FoamTest/
+在线查看: https://wdssmq.github.io/FoamTest
+
+关于作者: https://github.com/wdssmq
 
 ## 说明
 
