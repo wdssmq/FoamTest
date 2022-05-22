@@ -5,7 +5,7 @@ type: 笔记
 tags: GitHub
 ---
 
-本项目[#FoamTest]内置了`Jackiexiao/foam-mkdocs-template`用于发布更新，实际你可能需要从原项目重新获取部署文件；
+本项目[#FoamTest]内置了`Jackiexiao/foam-mkdocs-template`用于发布更新~~，实际你可能需要从原项目重新获取部署文件~~；
 
 见：[#外部参考]
 
@@ -15,7 +15,7 @@ tags: GitHub
 
 感觉可以自动复制`README.md`进去，同时将`docs-zh`也复制进去，原来的英文说明就不删除了；
 
-实际发现，发布后[#双链笔记]的意义好像就消失了？以及多很 md 本身的解析问题，比如**加精**；
+实际发现，~~发布后[#双链笔记]的意义好像就消失了？~~以及多很 md 本身的解析问题，比如**加粗**；
 
 [foam-mkdocs-template 中文文档](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README-zh.md)
 
