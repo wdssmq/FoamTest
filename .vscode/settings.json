@@ -20,6 +20,7 @@
   // "git.postCommitCommand": "sync",
   "markdown.preview.breaks": true,
   "pasteImage.path": "${projectRoot}/attachments",
+  // "pasteImage.basePath": "${currentFileDir}",
   "pasteImage.showFilePathConfirmInputBox": true,
   "prettier.singleQuote": false,
 }
