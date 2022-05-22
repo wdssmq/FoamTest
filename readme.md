@@ -16,11 +16,44 @@
 
 姑且先作为使用 Foam 这个东西本身的笔记仓库；
 
+## 使用本项目为模板进行初始化
+
+```bash
+# 注：请以分隔线为区块依次执行；
+
+# -----------
+NOTE_NAME=FoamNote
+git clone git@github.com:wdssmq/FoamTest.git ${NOTE_NAME}
+
+# -----------
+cd ${NOTE_NAME}
+# 删除不需要的文件
+rm -rf _layouts assets
+rm -rf attachments/foam-icon.png .foam/templates/your-first-template.md
+# 清空 docs
+rm -rf docs-zh docs/*
+# README 重新生成
+rm -rf readme.md
+echo "# ${NOTE_NAME}" > README.md
+# 重新初始化 git
+rm -rf .git
+git init
+git add .
+git commit -m "First Commit"
+
+# -----------
+# 如果用不到 GitHub Pages 部署可以删掉
+rm -rf .github mkdocs.yml requirements.txt
+git add .
+git commit -m "Del gh-pages CI"
+
+```
+
 ## 探究记录
 
 - `_layouts`文件夹好像是给 Github Pages + jekyll 用的，应该是可以**删**的吧；
     - jekyll 本身就挺麻烦的，不是很想研究；[^jekyll][[#其他参考]]
-- 同理`attachments`和`assets`应该也可以**删**掉；
+- 同理~~`attachments`~~和`assets`应该也可以**删**掉；
 - 自带的文档文件都移入了`docs`文件夹内，新建`docs-zh`，实际自己创建的笔记项目中可以**删**掉或清空；
 - markdown-all-in-one 插件好像不支持脚注；[[markdown-syntax#脚注]]
 - 快捷键之类的；
@@ -30,6 +63,7 @@
     - 代码片段内预置了一个`/blockmeta`用于在一些地方设置 #tag，这并不是 Foam 内置语法，也暂时不知道有什么用；
 - [#tag]和[#脚注]感觉可以以某种形式相结合？[[markdown-syntax#脚注]]
 - 姑且搞定了发布功能；[[publis-github-page]]
+- `spellright.dict`又是啥文件；
 
 [^jekyll]: Github Pages + jekyll 全面介绍极简搭建个人网站和博客: https://zhuanlan.zhihu.com/p/51240503
 
