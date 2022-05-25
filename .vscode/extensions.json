@@ -13,5 +13,8 @@
 
     // Spell checking for words
     "streetsidesoftware.code-spell-checker",
+
+    // Coding styles
+    "EditorConfig.EditorConfig"
   ]
 }
