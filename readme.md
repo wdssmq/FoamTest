@@ -46,7 +46,6 @@ git commit -m "First Commit"
 rm -rf .github mkdocs.yml requirements.txt
 git add .
 git commit -m "Del gh-pages CI"
-
 ```
 
 ## 探究记录
@@ -67,7 +66,7 @@ git commit -m "Del gh-pages CI"
 
 [^jekyll]: Github Pages + jekyll 全面介绍极简搭建个人网站和博客: https://zhuanlan.zhihu.com/p/51240503
 
-## 其他参考
+## 外部参考
 
 block-meta: [#外部参考]
 
