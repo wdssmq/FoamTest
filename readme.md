@@ -48,6 +48,14 @@ git add .
 git commit -m "Del gh-pages CI"
 ```
 
+## 中文笔记索引
+
+- [[settings]]
+- [[markdown-syntax]]
+- [[code-snippets]]
+- [[publis-github-page]]
+- [[some-tips]]
+
 ## 探究记录
 
 - `_layouts`文件夹好像是给 Github Pages + jekyll 用的，应该是可以**删**的吧；
