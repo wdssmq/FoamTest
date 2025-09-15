@@ -4,7 +4,11 @@
     "editor.overviewRulerBorder": false,
     "editor.lineHeight": 24,
     "[markdown]": {
-        "editor.quickSuggestions": true
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
     },
     "files.defaultLanguage": "markdown",
     "files.exclude": {
@@ -16,13 +20,11 @@
         "**/.history": true,
     },
     "foam.edit.linkReferenceDefinitions": "off",
-    "foam.openDailyNote.directory": "journal",
-    "foam.openDailyNote.titleFormat": "fullDate",
     "git.enableSmartCommit": true,
     // "git.postCommitCommand": "sync",
     "markdown.preview.breaks": true,
     "pasteImage.path": "${projectRoot}/attachments",
     // "pasteImage.basePath": "${currentFileDir}",
     "pasteImage.showFilePathConfirmInputBox": true,
-    "prettier.singleQuote": false,
+    // "prettier.singleQuote": false,
 }
